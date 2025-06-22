@@ -23,7 +23,7 @@ public class Main {
 
         Kucing.infoHewan();
         Mio.infoHewan();
+        System.out.println(org.class);
     }
-
 }
 
