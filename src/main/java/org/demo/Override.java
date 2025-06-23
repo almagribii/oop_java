@@ -1,6 +1,16 @@
 package org.demo;
 
 public class Override {
+    protected String nama;
+    String name;
+    public String nami;
+    private String namo;
+
+    public Override(String namo){
+        this.namo = namo; //ini untuk private hanya bisa diakses oleh kelas pembuat dia gak bisa diakses oleh subclass walaupun di package yang sma
+    }
+
+
     public static void main(String[] args) {
         System.out.println("Cantik");
 
@@ -11,6 +21,10 @@ public class Override {
         mobil.suara();
 
         System.out.println(orang.nama + orang.name);
+
+        v1 v1 = new v1("Brucad", "Kmau", "kamu", "Pintar"); //ini fungs dari subclass yang ada di Main.java
+
+        v1.dia();
     }
 
 }
