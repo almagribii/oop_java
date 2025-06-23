@@ -4,10 +4,11 @@ public class Override {
     protected String nama;
     String name;
     public String nami;
-    private String namo;
+    public String namo;
 
-    public Override(String namo){
+    public Override(String namo, String nami){
         this.namo = namo; //ini untuk private hanya bisa diakses oleh kelas pembuat dia gak bisa diakses oleh subclass walaupun di package yang sma
+        this.nami = nami;
     }
 
 
@@ -72,6 +73,15 @@ class Lingkaran extends Bentuk {
 
     void suara(){;
     }
+
+    private void su(){
+        System.out.println("");
+    }
+
+    protected void suu(){
+        System.out.println("");
+    }
+
 }
 
 class orang {

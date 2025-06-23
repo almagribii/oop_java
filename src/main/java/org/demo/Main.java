@@ -30,7 +30,7 @@ public class Main {
 class v1 extends Override {
     String Hello;
     public v1(String nama, String name, String hello, String namo){  //bisa mengakses dari attribut supeclass yang memakai protected dan menambah satu attribut baru atau memperluas
-        super(namo); //ini soalnya ada param di Superclass kita harus manaruhnya disini
+        super(namo, nama); //ini soalnya ada param di Superclass kita harus manaruhnya disini
         this.nama = nama;
         this.name = name; //Tapi kalau default dia msuk private tapi bisa diakses oleh subclassnya di dalam package yang sma
         this.nami = "Nami"; // Ini dia public jadi bisa diakses dengan gampang
