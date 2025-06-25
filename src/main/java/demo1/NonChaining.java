@@ -22,5 +22,4 @@ public class NonChaining {
         System.out.println("Warna" + warna);
     }
 
-
 }
