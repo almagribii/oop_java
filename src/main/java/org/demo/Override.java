@@ -55,7 +55,7 @@ class burung implements becak {
     }
 }
 
-abstract class Bentuk {
+ abstract class Bentuk {
     String nama;
     public Bentuk(String nama){
         this.nama = nama;
@@ -66,6 +66,28 @@ class Lingkaran extends Bentuk {
     String merk;
 
     public Lingkaran(String nama, String merk){
+        super(nama);
+        this.merk = merk;
+
+    }
+
+    void suara(){;
+    }
+
+    private void su(){
+        System.out.println("");
+    }
+
+    protected void suu(){
+        System.out.println("");
+    }
+
+}
+
+class Lingkaran1 extends Bentuk {
+    String merk;
+
+    public Lingkaran1(String nama, String merk){
         super(nama);
         this.merk = merk;
 
